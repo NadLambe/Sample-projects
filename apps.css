@@ -1,0 +1,36 @@
+body{
+	background:url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?dpr=2&fit=&fm=jpg&h=775&q=50&w=1450);
+    background-size: cover;
+    background-position: center; 
+    font-family: Lato;
+    color: white;
+}
+html{
+	height: 100%;
+}
+#content{
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rbga (0.0.0.4),
+	             0px 8px 13px rbga (0.0.0.1),
+	             0px 18px 20px rbga (0.0.0.1);
+
+
+
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+
+}
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8
+	border-bottom: 1px solid rbga(0,0,0.2);
+}
+
+/** If you want your bootstrap styled website to be responsive on mobile then be sure to add the following meta tag to your <head>  element, above the <title>  tag:
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+-->
